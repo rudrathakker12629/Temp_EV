@@ -1,0 +1,93 @@
+/* ─── Favorites Page ─────────────────────────── */
+
+.favorites-page {
+  min-height: calc(100vh - 70px);
+  background: #070714;
+  padding: 24px;
+}
+
+.favorites-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.page-header-left { flex: 1; }
+
+.page-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
+  margin: 0 0 6px;
+}
+
+.page-subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+}
+
+.favorites-count-badge {
+  background: rgba(255, 68, 102, 0.15);
+  border: 1px solid rgba(255, 68, 102, 0.3);
+  color: #ff4466;
+  font-family: 'Syne', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+.favorites-empty {
+  text-align: center;
+  padding: 80px 24px;
+}
+
+.empty-illustration {
+  font-size: 72px;
+  margin-bottom: 20px;
+  opacity: 0.6;
+}
+
+.favorites-empty h2 {
+  font-family: 'Syne', sans-serif;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 12px;
+}
+
+.favorites-empty p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.35);
+  max-width: 320px;
+  margin: 0 auto 24px;
+  line-height: 1.6;
+}
+
+.browse-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #00c8ff, #0066ff);
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.2s;
+  box-shadow: 0 4px 16px rgba(0, 100, 255, 0.3);
+}
+
+.browse-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 100, 255, 0.4);
+}
